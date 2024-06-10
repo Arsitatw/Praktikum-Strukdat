@@ -583,7 +583,7 @@ int main() {
 }
 ```
 #### Output
-
+![Screenshot 202024-06-10 20105404](https://github.com/Arsitatw/Praktikum-Strukdat/blob/master/praktikum%206/Screenshot%202024-06-10%20105404.png)
 #### Penjelasan 
 Dalam kode ini, terdapat fungsi-fungsi dasar untuk mengelola linked list seperti init() untuk menginisialisasi linked list, isEmpty() untuk memeriksa apakah linked list kosong, serta insertDepan(), insertBelakang(), dan insertTengah() untuk menambahkan node baru ke dalam linked list sesuai dengan posisi yang diinginkan.
 Selain itu, terdapat juga fungsi-fungsi hapusData() untuk menghapus node berdasarkan nama, ubahData() untuk mengubah data node berdasarkan nama, dan tampilkanList() untuk menampilkan seluruh data dalam linked list. Di dalam fungsi main(), linked list diinisialisasi menggunakan fungsi init(), kemudian beberapa node ditambahkan ke linked list dengan menggunakan fungsi-fungsi penambahan yang telah disediakan.
@@ -591,7 +591,7 @@ Setelah itu, beberapa operasi dilakukan pada linked list seperti menghapus data 
 Akhirnya, seluruh data dalam linked list ditampilkan ke layar menggunakan fungsi tampilkanList().
 
 ### 2. Modifikasi Guided Double Linked List dilakukan dengan penambahan operasi untuk menambah data, menghapus, dan update di tengah / di urutan tertentu yang diminta. Selain itu, buatlah agar tampilannya menampilkan Nama produk dan harga
-[screenshoot]
+![Screenshot 202024-06-10 20104840](https://github.com/Arsitatw/Praktikum-Strukdat/blob/master/praktikum%206/Screenshot%202024-06-10%20104840.png)
 Case:
 1.	Tambahkan produk Azarine dengan harga 65000 diantara Somethinc dan Skintific
 2.	Hapus produk wardah
@@ -607,7 +607,7 @@ Toko Skincare Purwokerto
 7.	Tampilkan Data
 8.	Exit
 Pada menu 7, tampilan akhirnya akan menjadi seperti dibawah ini :
-[screenshoot]
+![Screenshot 202024-06-10 20105055](https://github.com/Arsitatw/Praktikum-Strukdat/blob/master/praktikum%206/Screenshot%202024-06-10%20105055.png)
 ```C++
 #include <iostream>
 #include <string>
@@ -849,7 +849,7 @@ int main() {
 }
 ```
 #### Output
-
+![Screenshot 202024-06-10 20184012](https://github.com/Arsitatw/Praktikum-Strukdat/blob/master/praktikum%206/Screenshot%202024-05-16%20184012.png)
 #### Penjelasan
 Pada program ini, terdapat dua class utama: class Node yang merepresentasikan setiap node dalam linked list, dan class DoublyLinkedList yang bertanggung jawab atas operasi-operasi pada linked list.
 Di dalam class DoublyLinkedList, terdapat fungsi-fungsi seperti tambahDepan(), hapusDepan(), perbarui(), hapusSemua(), tampilkan(), tambahDiUrutan(), dan hapusDiUrutan(), yang masing-masing berfungsi untuk menambahkan node di depan linked list, menghapus node dari depan linked list, mengubah informasi node, menghapus semua node, menampilkan seluruh data dalam linked list, menambahkan node di posisi tertentu, dan menghapus node dari posisi tertentu.
