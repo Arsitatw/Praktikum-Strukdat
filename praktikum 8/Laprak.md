@@ -256,7 +256,7 @@ int main() {
 }
 ```
 #### Output
-
+![Screenshot 202024-06-10 20115457](https://github.com/Arsitatw/Praktikum-Strukdat/blob/master/praktikum%208/Screenshot%202024-06-10%20115457.png)
 #### Penjelasan
 Fungsi parent(i), leftChild(i), dan rightChild(i) digunakan untuk menemukan indeks orang tua, anak kiri, dan anak kanan dari sebuah node di dalam heap. Fungsi shiftUp(i) dan shiftDown(i) digunakan untuk memastikan bahwa properti heap terjaga setelah penambahan atau penghapusan elemen dalam heap.
 Fungsi insert(p) digunakan untuk menambahkan elemen ke dalam heap dengan memasukkannya ke dalam array H dan memanggil shiftUp() untuk memastikan bahwa properti heap terjaga. Fungsi extractMax() digunakan untuk menghapus dan mengembalikan elemen dengan prioritas tertinggi dari heap, yaitu elemen pada indeks 0, kemudian memanggil shiftDown() untuk memastikan bahwa properti heap terjaga setelah penghapusan.
