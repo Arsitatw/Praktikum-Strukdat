@@ -261,7 +261,7 @@ int main() {
 }
 ```
 #### Output
-
+![Screenshot 202024-06-10 20113007](https://github.com/Arsitatw/Praktikum-Strukdat/blob/master/praktikum%207/Screenshot%202024-06-10%20113007.png)
 #### Penjelasan
 Di dalam fungsi isPalindrome(), sebuah objek stack dari tipe char digunakan untuk menyimpan karakter-karakter dari kalimat yang telah dibersihkan dari spasi, tanda baca, dan diubah menjadi huruf kecil menggunakan fungsi tolower(). Setelah kalimat dibersihkan, karakter-karakternya dimasukkan ke dalam stack.
 Setelah itu, program memeriksa setiap karakter dalam kalimat dengan karakter yang berada di atas stack. Jika terdapat perbedaan karakter antara kalimat asli dan kalimat yang telah dibalik, maka program mengembalikan false, menandakan bahwa kalimat tersebut bukanlah palindrom. Jika tidak ada perbedaan, program mengeluarkan karakter dari stack dan melanjutkan perulangan hingga semua karakter dalam kalimat telah diperiksa.
@@ -373,7 +373,10 @@ int main() {
 ```
 
 #### Output
-
+![Screenshot 202024-06-10 20113205](https://github.com/Arsitatw/Praktikum-Strukdat/blob/master/praktikum%207/Screenshot%202024-06-10%20113205.png)
+![Screenshot 202024-06-10 20113215](https://github.com/Arsitatw/Praktikum-Strukdat/blob/master/praktikum%207/Screenshot%202024-06-10%20113215.png)
+![Screenshot 202024-06-10 20113223](https://github.com/Arsitatw/Praktikum-Strukdat/blob/master/praktikum%207/Screenshot%202024-06-10%20113223.png)
+![Screenshot 202024-06-10 20113233](https://github.com/Arsitatw/Praktikum-Strukdat/blob/master/praktikum%207/Screenshot%202024-06-10%20113233.png)
 #### Penjelasan
 Fungsi isFull() digunakan untuk memeriksa apakah antrian sudah penuh, sedangkan isEmpty() digunakan untuk memeriksa apakah antrian kosong. Fungsi enqueueAntrian() digunakan untuk menambahkan data ke dalam antrian, dan dequeueAntrian() digunakan untuk menghapus data dari antrian.
 Fungsi countQueue() mengembalikan jumlah antrian yang ada, sementara fungsi clearQueue() menghapus semua data antrian. Fungsi viewQueue() digunakan untuk menampilkan seluruh data dalam antrian.
