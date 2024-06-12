@@ -236,7 +236,7 @@ int main() {
 ```
 
 #### Output
-![Screenshot 202024-06-12 20232854](
+![Screenshot 202024-06-12 20232945](https://github.com/Arsitatw/Praktikum-Strukdat/blob/master/praktikum%209/Screenshot%202024-06-12%20232945.png)
 #### Penjelasan
 Kode di atas adalah program C++ yang menghitung nilai faktorial dari sebuah bilangan bulat positif menggunakan rekursi tidak langsung (indirect recursion). Program ini dimulai dengan mengimpor pustaka iostream dan menggunakan namespace std untuk memudahkan penggunaan objek-objek seperti cout dan cin. 
 Fungsi factorial memanggil fungsi pembantu factorialHelper dengan argumen awal n dan 1 sebagai accumulator. Fungsi factorialHelper bertanggung jawab untuk menghitung faktorial dengan menggunakan rekursi. Jika nilai n adalah 0 atau 1, fungsi mengembalikan nilai accumulator, yang berarti proses rekursi berhenti. 
@@ -386,7 +386,8 @@ int main() {
 }
 ```
 #### Output
-![Screenshot 202024-06-12 20232854](
+![Screenshot 202024-06-12 20233159](https://github.com/Arsitatw/Praktikum-Strukdat/blob/master/praktikum%209/Screenshot%202024-06-12%20233159.png)
+![Screenshot 202024-06-12 20233234](https://github.com/Arsitatw/Praktikum-Strukdat/blob/master/praktikum%209/Screenshot%202024-06-12%20233234.png)
 #### Penjelasan
 Kode di atas adalah program C++ yang mengimplementasikan hash table untuk menyimpan data mahasiswa berdasarkan NIM dan nilai mereka. Kelas Mahasiswa mendefinisikan struktur data mahasiswa dengan atribut NIM dan nilai. 
 Kelas HashTable menggunakan array dari vector untuk menyimpan objek Mahasiswa dan menangani collision dengan teknik chaining. Fungsi hashFunction digunakan untuk menghitung indeks hash dari NIM menggunakan algoritma sederhana berbasis nilai ASCII karakter. 
